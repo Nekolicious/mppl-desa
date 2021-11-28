@@ -32,7 +32,7 @@ h2 h3 {
 
 a {
   text-decoration: none;
-  color: #003863;
+  color: #1f283e;
 }
 
 a:hover {
@@ -40,15 +40,15 @@ a:hover {
 }
 
 .mppl-color {
-  color: #003863;
+  color: #1f283e;
 }
 
 .border-mppl{
-  border-color:#003863!important
+  border-color:#1f283e!important
 }
 
 .mppl-color-dark {
-  color: #080B25;
+  color: #1a2035;
 }
 
 .mppl-color-light {
@@ -60,7 +60,7 @@ a:hover {
 }
 
 .mppl-bg {
-  background-color: #003863;
+  background-color: #1f283e;
 }
 
 .bg-white {
@@ -69,14 +69,14 @@ a:hover {
 
 .nav-masthead .nav-link {
   font-weight: 1000;
-  color: #003863;
+  color: #1f283e;
   background-color: transparent;
   border-bottom: .20rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: #003863;
+  border-bottom-color: #1f283e;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -84,24 +84,24 @@ a:hover {
 }
 
 .nav-masthead .active {
-  color: #003863;
-  border-bottom-color: #003863;
+  color: #1f283e;
+  border-bottom-color: #1f283e;
 }
 
 .btn-outline-mppl{
-  color:#003863;
-  border-color:#003863}
+  color:#1f283e;
+  border-color:#1f283e}
   
 .btn-outline-mppl:hover{
   color:#fff;
-  background-color:#003863;
-  border-color:#003863;
+  background-color:#1f283e;
+  border-color:#1f283e;
 }
 
 .btn-mppl{
   color:#fff;
-  background-color:#003863;
-  border-color:#003863;
+  background-color:#1f283e;
+  border-color:#1f283e;
 }
 
 .btn-mppl:hover{
@@ -145,7 +145,7 @@ a:hover {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #003863;
+  background-color: #1f283e;
   color: white;
   cursor: pointer;
   padding: 15px;
