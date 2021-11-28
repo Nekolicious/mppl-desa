@@ -11,6 +11,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
 </head>
@@ -47,7 +48,7 @@
         </nav>
         <div class="mx-4 my-auto p-auto">
           <button class="mx-2 btn btn-mppl" data-bs-toggle="modal" data-bs-target="#loginPrompt">Masuk</button>
-          <button class="mx-2 btn btn-outline-mppl">Daftar</button>
+          <a href="register.html"><button class="mx-2 btn btn-outline-mppl">Daftar</button></a>
         </div>
       </div>
     </nav>
@@ -71,10 +72,10 @@
           </div>
           <div class="modal-body mx-auto text-center">
             <span>Pengunjung? Klik User</span><br>
-            <a href="#" class="btn btn-mppl">User</a>
+            <a href="login.html" class="btn btn-mppl">User</a>
             <br><br>
             <span>Administrator? Klik Admin</span><br>
-            <a href="#" class="btn btn-secondary">Admin</a>
+            <a href="loginadmin.html" class="btn btn-secondary">Admin</a>
           </div>
         </div>
       </div>
@@ -311,35 +312,6 @@
     </footer>
   </div>
 </body>
-<script>
-  //Get the button
-  var mybutton = document.getElementById("myBtn");
-
-  // When the user scrolls down 20px from the top of the document, show the button
-  window.onscroll = function () { scrollFunction() };
-
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
-  }
-
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-</script>
-<script>
-  var myModal = document.getElementById('myModal')
-  var myInput = document.getElementById('myInput')
-
-  myModal.addEventListener('shown.bs.modal', function () {
-    myInput.focus()
-  })
-</script>
 <!-- nekolicious.github.io -->
 
 </html>
