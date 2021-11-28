@@ -32,11 +32,11 @@ h2 h3 {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #003863;
 }
 
 a:hover {
-  color: #003863;
+  color: #001e35;
 }
 
 .mppl-color {
@@ -61,6 +61,10 @@ a:hover {
 
 .mppl-bg {
   background-color: #003863;
+}
+
+.bg-white {
+  background-color: white;
 }
 
 .nav-masthead .nav-link {
